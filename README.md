@@ -43,3 +43,8 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 ## License
 
 [CC0 1.0 (Public Domain)](LICENSE.md)
+
+# Build
+## windows
+`electron-packager ./ aiphoto --platform=win32 --arch=x64 --icon=logo_48_48.ico --out=../myapp --asar --app-version=0.0.1 --overwrite --ignore=node_modules --ignore=\.gitignore --electron-version=9.0.0`
+

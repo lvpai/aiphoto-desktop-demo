@@ -1,10 +1,11 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "aiphoto",
+  "version": "0.0.1",
+  "description": "旅拍云旗下应用.",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-packager . aiphoto --linux --out ../myapp --arch=x64 --app-version=0.0.1 --electron-version=9.0.0"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
